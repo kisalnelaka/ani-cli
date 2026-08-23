@@ -1,23 +1,14 @@
-# Contribution Guidelines
-
-## Pull Requests
-
-- Appease the linter (run `shfmt -i 4 -ci -d -w ani-cli`)
-- Appease POSIX (run `shellcheck -s sh -o all -e 2250 ani-cli`)
-- Bump the version
-- Adjust the Readme according to your changes (if applicable)
-- No extra dependencies unless absolutely necessary
-- If you're fixing an issue, open an issue as well or link existing one
-
-## Issues
-
-- Use the issue templates
-- When requesting a feature, check it hasn't been [rejected](https://github.com/pystardust/ani-cli/issues/523) previously
-- Provide screenshot if applicable
-
-## How else can I help?
-
-- Join the [discord](https://discord.gg/aqu7GpqVmR)
-- Take part in troubleshooting and testing
-- Star the repo
-- Follow the maintainers
+```
+  _____                __  .__             .__                               _____                     .___   
+_/ ____\___________  _/  |_|  |__   ____   |  |   _______  __ ____     _____/ ____\    ____   ____   __| _/   
+\   __\/  _ \_  __ \ \   __\  |  \_/ __ \  |  |  /  _ \  \/ // __ \   /  _ \   __\    / ___\ /  _ \ / __ |    
+ |  | (  <_> )  | \/  |  | |   Y  \  ___/  |  |_(  <_> )   /\  ___/  (  <_> )  |     / /_/  >  <_> ) /_/ |    
+ |__|  \____/|__|     |__| |___|  /\___  > |____/\____/ \_/  \___  >  \____/|__|     \___  / \____/\____ | /\ 
+                                \/     \/                        \/                 /_____/             \/ )/ 
+        .__                                    .___             __                                            
+ ______ |  |   ____ _____    ______ ____     __| _/____   _____/  |_                                          
+ \____ \|  | _/ __ \\__  \  /  ___// __ \   / __ |/  _ \ /    \   __\                                         
+ |  |_> >  |_\  ___/ / __ \_\___ \\  ___/  / /_/ (  <_> )   |  \  |                                           
+ |   __/|____/\___  >____  /____  >\___  > \____ |\____/|___|  /__|                                           
+ |__|             \/     \/     \/     \/       \/           \/                                               
+ ```
